@@ -2,6 +2,7 @@ import React, {Component} from 'react';
 import tots from '../assets/tots.PNG';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
+import Footer from '../components/footer';
 
 import '../App.css'
 class Alan extends Component{
@@ -58,6 +59,9 @@ class Alan extends Component{
                    <Navbar />
                     
                    </div> 
+                   <div className="App-footer">
+                         <Footer />
+                        </div> 
     </div>
     )
     }}

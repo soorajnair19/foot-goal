@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import city from '../assets/mci.jpg';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
+import Footer from '../components/footer';
 
 import '../App.css'
 
@@ -38,6 +39,9 @@ class City extends Component {
                    <Navbar />
                     
                    </div> 
+                   <div className="App-footer">
+                         <Footer />
+                        </div> 
      </div>
     )
     }

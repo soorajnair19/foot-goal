@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ref from '../assets/ref.png';
 import Header from '../components/Header';
 import Navbar from '../components/Navbar';
+import Footer from '../components/footer';
 
 import '../App.css'
 
@@ -51,6 +52,9 @@ class Referee extends Component {
                    <Navbar />
                     
                    </div> 
+                   <div className="App-footer">
+                         <Footer />
+                        </div> 
             </div>
         )
     }
