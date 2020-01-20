@@ -1,4 +1,4 @@
-Footgoal is a site wherein you can read football related news articles.
+Developed with React.JS, Footgoal is a site wherein you can read football related news articles.
 
 After downloading the code, your first order of business is to open terminal and run yarn. (or npm install if you're about that life)
 
